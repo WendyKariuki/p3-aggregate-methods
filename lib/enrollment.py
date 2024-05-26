@@ -20,6 +20,7 @@ class Course:
 
         self.title = title
         self._enrollments = []
+    
 
     def add_enrollment(self, enrollment):
         if isinstance(enrollment, Enrollment):
